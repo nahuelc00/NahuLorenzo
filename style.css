@@ -49,6 +49,8 @@ body {
 .cont-logos__logo {
   width: 120px;
   height: 120px;
+  border: white;
+  border-radius: 25%;
 }
 @media (min-width: 600px) {
   .cont-logos__logo {
@@ -59,7 +61,7 @@ body {
 
 .cont-logos__logo:hover {
   cursor: pointer;
-  transition-duration: 10ms;
+  transition-duration: 650ms;
   border: 5px solid white;
   border-radius: 50%;
 }
