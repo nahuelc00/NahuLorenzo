@@ -10,7 +10,7 @@ function addLinksToImages() {
       }
       if (logo.className.includes("cv")) {
         window.open(
-          "https://drive.google.com/file/d/1772oHRPEpXTQddE-5tD6hHU9J6XZ_zlm/view?usp=share_link"
+          "https://drive.google.com/file/d/1s3almkb3X6Zs85ndm6b3ilYsqqM0XROU/view?usp=share_link"
         );
       }
       if (logo.className.includes("code")) {
