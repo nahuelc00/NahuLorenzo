@@ -13,6 +13,9 @@ function addLinksToImages() {
           "https://drive.google.com/file/d/1772oHRPEpXTQddE-5tD6hHU9J6XZ_zlm/view?usp=share_link"
         );
       }
+      if (logo.className.includes("code")) {
+        window.open("https://nahuelc00.github.io/proyects/");
+      }
     });
   });
 }
