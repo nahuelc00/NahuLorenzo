@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+#root{
+  height: 100vh;
+}
+@media (min-width: 480px) {
+  #root {
+    height: initial;
+  }
+}
+
 body {
   margin: 0;
   background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
@@ -10,6 +19,7 @@ body {
 /* Main */
 .main {
   padding: 0 0 15px 0;
+  height: 100%;
 }
 @media (min-width: 480px) {
   .main {
@@ -39,6 +49,8 @@ body {
   display: grid;
   justify-content: center;
   gap: 15px;
+  height: 100%; 
+  align-items: center;
 }
 @media (min-width: 480px) {
   .cont-logos {
