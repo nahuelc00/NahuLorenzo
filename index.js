@@ -8,11 +8,6 @@ function addLinksToImages() {
       if (logo.className.includes("github")) {
         window.open("https://github.com/nahuelc00");
       }
-      if (logo.className.includes("cv")) {
-        window.open(
-          "https://drive.google.com/file/d/1s3almkb3X6Zs85ndm6b3ilYsqqM0XROU/view?usp=share_link"
-        );
-      }
       if (logo.className.includes("code")) {
         window.open("https://nahuelc00.github.io/proyects/");
       }

@@ -45,7 +45,7 @@ body {
     gap: 0;
     height: calc(100vh - 55px);
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
   }
 }
